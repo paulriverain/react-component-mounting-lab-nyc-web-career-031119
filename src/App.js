@@ -9,11 +9,14 @@ class App extends Component {
     timerIDs: []
   }
 
-
+// componentDidMount
   //Your code here:
 
 
+ componentDidMount = () =>{
+   this.handleAddTimer()
 
+ }
 
 
 
